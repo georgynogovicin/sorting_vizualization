@@ -1,7 +1,7 @@
 export const arrayActionTypes = {
     setArray: "SET_ARRAY",
     setLength: "SET_LENGTH",
-    resetArray: "CONTROLS/RESET_ARRAY"
+    resetArray: "CONTROLS/RESET_ARRAY",
 }
 
 export const comparisonActionTypes = {
@@ -24,7 +24,7 @@ export const setArray = (payload) => {
     }
 }
 
-export const setArrayLength = (payload) => {
+export const setLength = (payload) => {
     return {
         type: arrayActionTypes.setLength,
         payload,

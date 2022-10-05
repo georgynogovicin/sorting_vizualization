@@ -17,5 +17,5 @@ function* resetArray() {
 }
 
 export default [
-    takeLatest(arrayActionTypes.resetArray, resetArray)
+    takeLatest(arrayActionTypes.resetArray, resetArray),
 ];
