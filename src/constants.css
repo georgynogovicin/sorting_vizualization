@@ -2,4 +2,20 @@
     --color-grey: #f8f8f2;
     --color-light-grey: #f0ffff;
     --color-cyan: #6272a4;
+
+    --thumb: {
+        box-shadow: .1rem .1rem .1rem var(--color-grey);
+        border: .1rem solid var(--color-grey);
+        height: 1.6rem;
+        width: 1.4rem;
+        border-radius: .5rem;
+        background: var(--color-cyan);
+        cursor: pointer;
+        -webkit-appearance: none;
+    };
+
+    --track: {
+        width: 100%;
+        height: 1rem;
+    };
 }
