@@ -11,7 +11,6 @@ export const LengthInput = () => {
     const dispatch = useDispatch();
 
     const onChangeLength = (length) => dispatch(setLength(length));
-    // const onChangeLength = (length) => console.log(length);
 
     return (
         <RangeInput

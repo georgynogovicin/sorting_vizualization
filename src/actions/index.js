@@ -15,6 +15,7 @@ export const comparisonActionTypes = {
 
 export const sortingActionTypes = {
     bubbleSorting: "SORTING/BUBBLE_SORT",
+    shakerSorting: "SORTING/SHAKER_SORT",
 }
 
 export const setArray = (payload) => {
@@ -81,5 +82,11 @@ export const comparisonSetSortedElements = (payload) => {
 export const startBubbleSort = () => {
     return {
         type: sortingActionTypes.bubbleSorting,
+    }
+}
+
+export const startShakerSort = () => {
+    return {
+        type: sortingActionTypes.shakerSorting,
     }
 }
